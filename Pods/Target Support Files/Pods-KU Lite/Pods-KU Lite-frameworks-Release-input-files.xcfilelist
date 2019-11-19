@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-KU Lite/Pods-KU Lite-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SCPageViewController/SCPageViewController.framework
+${BUILT_PRODUCTS_DIR}/SCSafariPageController/SCSafariPageController.framework
+${BUILT_PRODUCTS_DIR}/SCScrollView/SCScrollView.framework

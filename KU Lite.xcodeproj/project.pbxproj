@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C1D9D131047243919649AD /* Pods_KU_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDCE42BD6C4D47D42802639 /* Pods_KU_Lite.framework */; };
+		07203C54237EFAC5009795A3 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07203C53237EFAC5009795A3 /* Toast.swift */; };
+		07CDE605237C00F10037BA33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE604237C00F10037BA33 /* AppDelegate.swift */; };
+		07CDE60A237C00F10037BA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE608237C00F10037BA33 /* Main.storyboard */; };
+		07CDE60D237C00F10037BA33 /* KU_Lite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE60B237C00F10037BA33 /* KU_Lite.xcdatamodeld */; };
+		07CDE60F237C00F30037BA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE60E237C00F30037BA33 /* Assets.xcassets */; };
+		07CDE612237C00F30037BA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE610237C00F30037BA33 /* LaunchScreen.storyboard */; };
+		07CDE61B237C02350037BA33 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE61A237C02350037BA33 /* RootVC.swift */; };
+		07CDE620237C0B330037BA33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE61E237C0B330037BA33 /* ViewController.swift */; };
+		07CDE621237C0B330037BA33 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE61F237C0B330037BA33 /* ViewController.xib */; };
+		07CDE625237CFA2B0037BA33 /* EditMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE623237CFA2A0037BA33 /* EditMoreView.xib */; };
+		07CDE626237CFA2B0037BA33 /* EditMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE624237CFA2A0037BA33 /* EditMoreView.swift */; };
+		07CDE628237D10810037BA33 /* EditBookmarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE627237D10810037BA33 /* EditBookmarkView.xib */; };
+		07CDE62A237D10E90037BA33 /* EditBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE629237D10E90037BA33 /* EditBookmarkView.swift */; };
+		07CDE62C237D1D690037BA33 /* ShowBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE62B237D1D690037BA33 /* ShowBookmarkView.swift */; };
+		07CDE62E237D1D810037BA33 /* ShowBookmarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE62D237D1D810037BA33 /* ShowBookmarkView.xib */; };
+		07CDE631237D5D120037BA33 /* BookmarkTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE62F237D5D120037BA33 /* BookmarkTVCell.swift */; };
+		07CDE632237D5D120037BA33 /* BookmarkTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDE630237D5D120037BA33 /* BookmarkTVCell.xib */; };
+		07CDE635237D6DD80037BA33 /* BookmarkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CDE634237D6DD80037BA33 /* BookmarkModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07203C53237EFAC5009795A3 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		07CDE601237C00F10037BA33 /* KU Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KU Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CDE604237C00F10037BA33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07CDE609237C00F10037BA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07CDE60C237C00F10037BA33 /* KU_Lite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KU_Lite.xcdatamodel; sourceTree = "<group>"; };
+		07CDE60E237C00F30037BA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07CDE611237C00F30037BA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07CDE613237C00F30037BA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CDE61A237C02350037BA33 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		07CDE61E237C0B330037BA33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07CDE61F237C0B330037BA33 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		07CDE623237CFA2A0037BA33 /* EditMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMoreView.xib; sourceTree = "<group>"; };
+		07CDE624237CFA2A0037BA33 /* EditMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditMoreView.swift; sourceTree = "<group>"; };
+		07CDE627237D10810037BA33 /* EditBookmarkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditBookmarkView.xib; sourceTree = "<group>"; };
+		07CDE629237D10E90037BA33 /* EditBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookmarkView.swift; sourceTree = "<group>"; };
+		07CDE62B237D1D690037BA33 /* ShowBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBookmarkView.swift; sourceTree = "<group>"; };
+		07CDE62D237D1D810037BA33 /* ShowBookmarkView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowBookmarkView.xib; sourceTree = "<group>"; };
+		07CDE62F237D5D120037BA33 /* BookmarkTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTVCell.swift; sourceTree = "<group>"; };
+		07CDE630237D5D120037BA33 /* BookmarkTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkTVCell.xib; sourceTree = "<group>"; };
+		07CDE634237D6DD80037BA33 /* BookmarkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkModel.swift; sourceTree = "<group>"; };
+		22064D865D4E0214524D0094 /* Pods-KU Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KU Lite.debug.xcconfig"; path = "Target Support Files/Pods-KU Lite/Pods-KU Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		2FDCE42BD6C4D47D42802639 /* Pods_KU_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KU_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67457AE5A4345ABA89E4DB4 /* Pods-KU Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KU Lite.release.xcconfig"; path = "Target Support Files/Pods-KU Lite/Pods-KU Lite.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CDE5FE237C00F10037BA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C1D9D131047243919649AD /* Pods_KU_Lite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CDE5F8237C00F10037BA33 = {
+			isa = PBXGroup;
+			children = (
+				07CDE633237D6DC40037BA33 /* Models */,
+				07CDE622237CFA0E0037BA33 /* Cells */,
+				07CDE619237C02180037BA33 /* Controllers */,
+				07CDE603237C00F10037BA33 /* KU Lite */,
+				07CDE602237C00F10037BA33 /* Products */,
+				DF07DFCB15BD59C70656E039 /* Pods */,
+				31B081B98E8AF1416DD7DFF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07CDE602237C00F10037BA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CDE601237C00F10037BA33 /* KU Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CDE603237C00F10037BA33 /* KU Lite */ = {
+			isa = PBXGroup;
+			children = (
+				07203C53237EFAC5009795A3 /* Toast.swift */,
+				07CDE604237C00F10037BA33 /* AppDelegate.swift */,
+				07CDE608237C00F10037BA33 /* Main.storyboard */,
+				07CDE60E237C00F30037BA33 /* Assets.xcassets */,
+				07CDE610237C00F30037BA33 /* LaunchScreen.storyboard */,
+				07CDE613237C00F30037BA33 /* Info.plist */,
+				07CDE60B237C00F10037BA33 /* KU_Lite.xcdatamodeld */,
+			);
+			path = "KU Lite";
+			sourceTree = "<group>";
+		};
+		07CDE619237C02180037BA33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07CDE61A237C02350037BA33 /* RootVC.swift */,
+				07CDE61E237C0B330037BA33 /* ViewController.swift */,
+				07CDE61F237C0B330037BA33 /* ViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07CDE622237CFA0E0037BA33 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				07CDE624237CFA2A0037BA33 /* EditMoreView.swift */,
+				07CDE623237CFA2A0037BA33 /* EditMoreView.xib */,
+				07CDE629237D10E90037BA33 /* EditBookmarkView.swift */,
+				07CDE627237D10810037BA33 /* EditBookmarkView.xib */,
+				07CDE62B237D1D690037BA33 /* ShowBookmarkView.swift */,
+				07CDE62D237D1D810037BA33 /* ShowBookmarkView.xib */,
+				07CDE62F237D5D120037BA33 /* BookmarkTVCell.swift */,
+				07CDE630237D5D120037BA33 /* BookmarkTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		07CDE633237D6DC40037BA33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07CDE634237D6DD80037BA33 /* BookmarkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31B081B98E8AF1416DD7DFF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FDCE42BD6C4D47D42802639 /* Pods_KU_Lite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF07DFCB15BD59C70656E039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22064D865D4E0214524D0094 /* Pods-KU Lite.debug.xcconfig */,
+				C67457AE5A4345ABA89E4DB4 /* Pods-KU Lite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CDE600237C00F10037BA33 /* KU Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CDE616237C00F30037BA33 /* Build configuration list for PBXNativeTarget "KU Lite" */;
+			buildPhases = (
+				23A9E7439B083064901B540F /* [CP] Check Pods Manifest.lock */,
+				07CDE5FD237C00F10037BA33 /* Sources */,
+				07CDE5FE237C00F10037BA33 /* Frameworks */,
+				07CDE5FF237C00F10037BA33 /* Resources */,
+				59540929B4670B53F7160D02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KU Lite";
+			productName = "KU Lite";
+			productReference = 07CDE601237C00F10037BA33 /* KU Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CDE5F9237C00F10037BA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ThunPham;
+				TargetAttributes = {
+					07CDE600237C00F10037BA33 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 07CDE5FC237C00F10037BA33 /* Build configuration list for PBXProject "KU Lite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CDE5F8237C00F10037BA33;
+			productRefGroup = 07CDE602237C00F10037BA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CDE600237C00F10037BA33 /* KU Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CDE5FF237C00F10037BA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDE612237C00F30037BA33 /* LaunchScreen.storyboard in Resources */,
+				07CDE60F237C00F30037BA33 /* Assets.xcassets in Resources */,
+				07CDE621237C0B330037BA33 /* ViewController.xib in Resources */,
+				07CDE632237D5D120037BA33 /* BookmarkTVCell.xib in Resources */,
+				07CDE62E237D1D810037BA33 /* ShowBookmarkView.xib in Resources */,
+				07CDE60A237C00F10037BA33 /* Main.storyboard in Resources */,
+				07CDE628237D10810037BA33 /* EditBookmarkView.xib in Resources */,
+				07CDE625237CFA2B0037BA33 /* EditMoreView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A9E7439B083064901B540F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KU Lite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59540929B4670B53F7160D02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KU Lite/Pods-KU Lite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KU Lite/Pods-KU Lite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KU Lite/Pods-KU Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CDE5FD237C00F10037BA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDE62A237D10E90037BA33 /* EditBookmarkView.swift in Sources */,
+				07CDE61B237C02350037BA33 /* RootVC.swift in Sources */,
+				07CDE635237D6DD80037BA33 /* BookmarkModel.swift in Sources */,
+				07CDE60D237C00F10037BA33 /* KU_Lite.xcdatamodeld in Sources */,
+				07CDE620237C0B330037BA33 /* ViewController.swift in Sources */,
+				07CDE62C237D1D690037BA33 /* ShowBookmarkView.swift in Sources */,
+				07CDE626237CFA2B0037BA33 /* EditMoreView.swift in Sources */,
+				07203C54237EFAC5009795A3 /* Toast.swift in Sources */,
+				07CDE605237C00F10037BA33 /* AppDelegate.swift in Sources */,
+				07CDE631237D5D120037BA33 /* BookmarkTVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07CDE608237C00F10037BA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CDE609237C00F10037BA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07CDE610237C00F30037BA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CDE611237C00F30037BA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CDE614237C00F30037BA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CDE615237C00F30037BA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CDE617237C00F30037BA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22064D865D4E0214524D0094 /* Pods-KU Lite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52CWVTZMW;
+				INFOPLIST_FILE = "KU Lite/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ku.app.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07CDE618237C00F30037BA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67457AE5A4345ABA89E4DB4 /* Pods-KU Lite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52CWVTZMW;
+				INFOPLIST_FILE = "KU Lite/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ku.app.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CDE5FC237C00F10037BA33 /* Build configuration list for PBXProject "KU Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDE614237C00F30037BA33 /* Debug */,
+				07CDE615237C00F30037BA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CDE616237C00F30037BA33 /* Build configuration list for PBXNativeTarget "KU Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDE617237C00F30037BA33 /* Debug */,
+				07CDE618237C00F30037BA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07CDE60B237C00F10037BA33 /* KU_Lite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07CDE60C237C00F10037BA33 /* KU_Lite.xcdatamodel */,
+			);
+			currentVersion = 07CDE60C237C00F10037BA33 /* KU_Lite.xcdatamodel */;
+			path = KU_Lite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07CDE5F9237C00F10037BA33 /* Project object */;
+}

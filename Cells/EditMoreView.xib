@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditMoreView" customModule="KU_Lite" customModuleProvider="target">
+            <connections>
+                <outlet property="bookmarksButton" destination="55P-hH-2mz" id="Tlp-43-9IM"/>
+                <outlet property="clearButton" destination="QoS-mo-sar" id="PwH-e5-rZY"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="7S0-Cq-ymG"/>
+                <outlet property="homeUrlTxt" destination="6Lf-hm-mA7" id="1Rk-JN-WBZ"/>
+                <outlet property="incognitoToggle" destination="rEI-0d-d6t" id="SJe-tL-5nI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="217"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trang chủ: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCf-ef-ZQn">
+                    <rect key="frame" x="16" y="16" width="86" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Lf-hm-mA7">
+                    <rect key="frame" x="106" y="11.5" width="258" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqX-lE-lzr">
+                    <rect key="frame" x="16" y="53" width="348" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="uVZ-Qz-ICf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chế độ ẩn danh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mis-xK-sKg">
+                    <rect key="frame" x="16" y="70" width="121" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rEI-0d-d6t">
+                    <rect key="frame" x="315" y="65" width="51" height="31"/>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLj-me-VCc">
+                    <rect key="frame" x="16" y="104" width="348" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="LWY-9c-haA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoS-mo-sar">
+                    <rect key="frame" x="16" y="113" width="172" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Xóa lịch sử web/cache"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVg-gf-OFH">
+                    <rect key="frame" x="16" y="154" width="348" height="1"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="BLx-0w-5Nm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55P-hH-2mz" userLabel="Bookmark Button">
+                    <rect key="frame" x="16" y="163" width="78" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="dấu trang"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="55P-hH-2mz" firstAttribute="top" secondItem="eVg-gf-OFH" secondAttribute="bottom" constant="8" id="0fZ-qh-Ccp"/>
+                <constraint firstItem="eVg-gf-OFH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="5xN-EM-V57"/>
+                <constraint firstItem="mLj-me-VCc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="6zn-fT-AWp"/>
+                <constraint firstItem="dqX-lE-lzr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="8YO-ja-zbu"/>
+                <constraint firstItem="55P-hH-2mz" firstAttribute="leading" secondItem="Mis-xK-sKg" secondAttribute="leading" id="9Hz-63-qdo"/>
+                <constraint firstItem="6Lf-hm-mA7" firstAttribute="leading" secondItem="HCf-ef-ZQn" secondAttribute="trailing" constant="4" id="Abg-6F-p21"/>
+                <constraint firstItem="dqX-lE-lzr" firstAttribute="top" secondItem="HCf-ef-ZQn" secondAttribute="bottom" constant="16" id="BZH-Jj-SoS"/>
+                <constraint firstItem="HCf-ef-ZQn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="EwC-Vi-IEO"/>
+                <constraint firstItem="mLj-me-VCc" firstAttribute="top" secondItem="rEI-0d-d6t" secondAttribute="bottom" constant="8" id="Fhn-FS-BdY"/>
+                <constraint firstItem="6Lf-hm-mA7" firstAttribute="centerY" secondItem="HCf-ef-ZQn" secondAttribute="centerY" id="Giw-mw-yeS"/>
+                <constraint firstItem="Mis-xK-sKg" firstAttribute="top" secondItem="dqX-lE-lzr" secondAttribute="bottom" constant="16" id="Kco-fL-vJW"/>
+                <constraint firstItem="QoS-mo-sar" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="OZt-ej-IPe"/>
+                <constraint firstItem="rEI-0d-d6t" firstAttribute="centerY" secondItem="Mis-xK-sKg" secondAttribute="centerY" id="Rb0-T1-Oly"/>
+                <constraint firstItem="HCf-ef-ZQn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="Y4T-jG-vzF"/>
+                <constraint firstAttribute="trailing" secondItem="6Lf-hm-mA7" secondAttribute="trailing" constant="16" id="ayr-n6-gei"/>
+                <constraint firstItem="dqX-lE-lzr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lCW-nz-jl0"/>
+                <constraint firstItem="eVg-gf-OFH" firstAttribute="top" secondItem="QoS-mo-sar" secondAttribute="bottom" constant="8" id="naQ-7U-2Bg"/>
+                <constraint firstItem="eVg-gf-OFH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="p3h-PW-GeI"/>
+                <constraint firstAttribute="trailing" secondItem="rEI-0d-d6t" secondAttribute="trailing" constant="16" id="p65-Yn-UrN"/>
+                <constraint firstItem="Mis-xK-sKg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="pre-dp-hDa"/>
+                <constraint firstItem="QoS-mo-sar" firstAttribute="top" secondItem="mLj-me-VCc" secondAttribute="bottom" constant="8" id="v6j-QN-sWF"/>
+                <constraint firstAttribute="trailing" secondItem="mLj-me-VCc" secondAttribute="trailing" constant="16" id="yio-Yx-jjd"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="36.231884057971016" y="236.04910714285714"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,1130 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13CB4DD29C38C144F31F211C2B2D27FA /* SCSlidingPageLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 354061218E79CFBB28E5A9ABF7244F11 /* SCSlidingPageLayouter.m */; };
+		163FAF73041EAEC05ECCFC7D89CAF7CA /* Pods-KU Lite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F513906126A88201EC08CCA2BD7CD00 /* Pods-KU Lite-dummy.m */; };
+		19D74D1F8531AA179FB1CB7E780FAD49 /* SCEasingFunctionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 87CC159879BDD78537929568B635E563 /* SCEasingFunctionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		234B14BCBE76342689FBA084094C7160 /* SCWeakObjectWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BD36C3F567FBF48E5DCC977D20FBA1C3 /* SCWeakObjectWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		245F1497B8F57CEFE0C41F70EFA672FA /* SCSafariZoomedOutLayouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B367B2E419066A560C5397AFC9B1FE /* SCSafariZoomedOutLayouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27FC26603349F8C856EA2FDA0E18B465 /* SCPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 147460F04D2B921D67CA27ED6EE4A684 /* SCPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C19B8A0567399BF33D277DCAED4D59D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD92E2175EBF8226ADA366BCB9EDA5A /* UIKit.framework */; };
+		369C96DF0A0FE577AFEBC283E9C85C5D /* SCEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF23460B9C3FC6C5A46DCE98E7B7C80 /* SCEasingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C3A75F8A6E4082228D3FC139E5F4D41 /* Pods-KU Lite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3922417AF5A6F2DB9E136E580DA53606 /* Pods-KU Lite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41039E4BD94EE03E4FCE405AB18E3A55 /* SCPageViewControllerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B015E812B42630EA23B228DFA43CC5 /* SCPageViewControllerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D138067F367438A1297E1FD6E8674A /* SCPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15BDDA61013C91DA7A8320B33A21A09 /* SCPageViewController.m */; };
+		4304F4475E1E6195D4599A0DE2296284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3469B243F16498784AEA047D205AD779 /* CoreGraphics.framework */; };
+		4C9055B46BB82398A367875907CFE595 /* SCPageLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 886DE1B72493287AA08839695ACAE59E /* SCPageLayouter.m */; };
+		51931384557B27A2758072420C43B079 /* SCPageLayouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA116AB2C40F06B366B572E590C3A22 /* SCPageLayouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B07ADCB3294DEC013A05B39C659D63 /* SCSafariPageController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5538EDA39F901BAD3BBE0E4B23DBB343 /* SCSafariPageController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AEB1BCB97BC522B5EAB29092A32932 /* SCPageLayouterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D553C53A74A4CF6B5703ECA38DF9D2CA /* SCPageLayouterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		589A9065A15178E60519B559AC794F50 /* SCSafariPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B587355002BFAA719B64AF7876185A23 /* SCSafariPageController.m */; };
+		703C0D5DCBB78D107F81F389457D5377 /* SCSlidingPageLayouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE7D407A6A10289ED91D500C4220860 /* SCSlidingPageLayouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DC3038F23A51AE793E04825C6A750D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35070EC0CD33CD23C0299C4BF391D08 /* Foundation.framework */; };
+		71FBE9039B070EF530823DBB6ED190DE /* SCPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD353B46E49E96DF078016A8D7817AAF /* SCPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AEC2FD704B5675DF68C0B425E3260E /* SCPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCCB8C3D818153C98939087C9B3D9F3 /* SCPageViewController.framework */; };
+		75EA13A7835338DE128752BA8CBC6F1F /* SCScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A542B89B9D51A9BD0924B680E9ABE263 /* SCScrollView-dummy.m */; };
+		77DBAD0E6656B1A207A016F3333FF107 /* SCPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A34765D123484DC3AEF95F68B7C99CF7 /* SCPageViewController-dummy.m */; };
+		79855E5BDD3833F6E71FD8BD820FB2C2 /* SCScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5BCE48D4565C884C2FE2F35F07E2C0 /* SCScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D20E88159D12E3CBCB2F237EE7B9B06 /* SCCardsPageLayouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C966F4EBCDED3179022371333E61BA10 /* SCCardsPageLayouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B8D825EFDDB9CBE7D569194D80CD1EA /* SCScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF017B6263AE0F4BF6BDC2F4785AA47 /* SCScrollView.framework */; };
+		8C3962BB2B1CB9E15217B84FF7862289 /* SCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4DD5E072D9E3EE4483F8F05FF8022 /* SCScrollView.m */; };
+		91436A45648223451ED6E7AF45A9EC1F /* SCSafariPageController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C850021EB73D548764290C21C8CA9D3 /* SCSafariPageController-dummy.m */; };
+		981C0F0818799B8440669D0C53C64C22 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C79E830D59EA7EE9B556F3856B914 /* QuartzCore.framework */; };
+		985924559339021151439780B8D3B52F /* SCSafariZoomedOutLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3F43D7C7638D23175905D08502E4D8 /* SCSafariZoomedOutLayouter.m */; };
+		99D4BC95A19495FB65B6ADECC3BE2C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35070EC0CD33CD23C0299C4BF391D08 /* Foundation.framework */; };
+		9D290566BC9459AD759234D4858DE993 /* SCParallaxPageLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A86E372D0F974CBF14F5A782DCB342F /* SCParallaxPageLayouter.m */; };
+		A165780BE3538D5ACB7D75DE0D0D44B0 /* SCEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B08868ABCE5591E17A214BA2D5FADA1E /* SCEasingFunction.m */; };
+		A17C2E0C203C0667BB205BEF14BD2F4F /* SCSafariZoomedInLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBA8F9DE4A9518A0621A932B839402B /* SCSafariZoomedInLayouter.m */; };
+		A21A6DF2C1753C8940C21C923F3C399D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD92E2175EBF8226ADA366BCB9EDA5A /* UIKit.framework */; };
+		A630103F428436CEB29638931AFDC907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35070EC0CD33CD23C0299C4BF391D08 /* Foundation.framework */; };
+		AED18D6C10EED82333A869F043B53668 /* SCSafariPageWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 771B5336D3EB15652A06A6F6B05838C3 /* SCSafariPageWrapperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B379AD31B1ACBA9896494F9FB7155A /* SCScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0EE32DE135D53F1B4F73B1D439A21A /* SCScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7265253C639B66B914ACC87EFE8D467 /* SCSafariZoomedInLayouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 321C169CB3083B3A6F80A35B53CB6274 /* SCSafariZoomedInLayouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6737B81D88848B9CFD9CD7F1AB0D6E /* SCParallaxPageLayouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B3C16EEE58B42901803C431CF68836 /* SCParallaxPageLayouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C910C7E8663EA3FC17C789FB34AF923A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C79E830D59EA7EE9B556F3856B914 /* QuartzCore.framework */; };
+		D0DB5A622B0B36512A924F4906D05F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35070EC0CD33CD23C0299C4BF391D08 /* Foundation.framework */; };
+		D62827C055346F5B62522A06AC0CBF2B /* SCCardsPageLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A32FDDB536BC38918C332310E8DB1CB2 /* SCCardsPageLayouter.m */; };
+		D94C1E2BF23EFC08A81C249A525C85C6 /* easing.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7A8CB7158EE382D3FE911FE18DD61E /* easing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4C427C57717E9E8050C1DD3180965A /* SCSafariPageWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8084399A248834CC3DE5F8843C26C98F /* SCSafariPageWrapperViewController.m */; };
+		F0C75F89A3565B5A02278FADEE2C7806 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = ED31E6C8A03BA84FEFDB9814D9D49558 /* easing.c */; };
+		F57369B0EDFAB0F995AEC376D1FAA8B2 /* SCPageViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DD8B3DEFE7C3A0093699BAC7604609 /* SCPageViewControllerView.m */; };
+		F879516ACE08D9E7FC9628DD7BF7FECD /* SCWeakObjectWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B9B943E88469192C3D4C52623DA5E /* SCWeakObjectWrapper.m */; };
+		FC9A1E3B20BB00A34F16958283967516 /* SCSafariPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = B95781FAB956D468014196DDCA7D65A7 /* SCSafariPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18010AA61BCBAB2171E90FC904169B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99314A05849ACCEAD6AB0A1C6548EDD5;
+			remoteInfo = SCPageViewController;
+		};
+		1FA0893495D76872E555BA0B4E6DD7F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D17A514F23B1227B602364C62EAF0A8;
+			remoteInfo = SCScrollView;
+		};
+		7CA10EC742DD8C6B46EBA64E24CC69E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95C0D52197DBAF920EE72C60300DF27;
+			remoteInfo = SCSafariPageController;
+		};
+		8283471EE68F20107F540C0A323C0380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D17A514F23B1227B602364C62EAF0A8;
+			remoteInfo = SCScrollView;
+		};
+		D0CC9B63EE089861C8C346B999D1B612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99314A05849ACCEAD6AB0A1C6548EDD5;
+			remoteInfo = SCPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EE9E2746459D146181085371B3B0D6 /* SCPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCPageViewController.modulemap; sourceTree = "<group>"; };
+		0C850021EB73D548764290C21C8CA9D3 /* SCSafariPageController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCSafariPageController-dummy.m"; sourceTree = "<group>"; };
+		0D8E8EA01D0FAD07007D2005E70D531A /* SCScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCScrollView.framework; path = SCScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D00E511AA6F7909B23F207D1DA99AD /* Pods-KU Lite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KU Lite-acknowledgements.markdown"; sourceTree = "<group>"; };
+		143D71BC1DA50D25D839EE72F8CB5F0E /* Pods-KU Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KU Lite.release.xcconfig"; sourceTree = "<group>"; };
+		147460F04D2B921D67CA27ED6EE4A684 /* SCPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCPageViewController.h; path = SCPageViewController/SCPageViewController.h; sourceTree = "<group>"; };
+		1C4B9B943E88469192C3D4C52623DA5E /* SCWeakObjectWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCWeakObjectWrapper.m; path = SCScrollView/SCWeakObjectWrapper.m; sourceTree = "<group>"; };
+		1E576E0E527783F073F1ED1329138C3B /* Pods-KU Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KU Lite.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8693F14F18CF8B76F9525ADB5E95A1 /* SCSafariPageController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCSafariPageController.modulemap; sourceTree = "<group>"; };
+		2DE7D407A6A10289ED91D500C4220860 /* SCSlidingPageLayouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSlidingPageLayouter.h; path = SCPageViewController/Layouters/SCSlidingPageLayouter.h; sourceTree = "<group>"; };
+		2FF42E8CE36C88D304D0D32A4DD280AA /* Pods-KU Lite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KU Lite.modulemap"; sourceTree = "<group>"; };
+		321C169CB3083B3A6F80A35B53CB6274 /* SCSafariZoomedInLayouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSafariZoomedInLayouter.h; path = SCSafariPageController/SCSafariZoomedInLayouter.h; sourceTree = "<group>"; };
+		338707CB410A3DE294DEB268F3754656 /* SCScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCScrollView-prefix.pch"; sourceTree = "<group>"; };
+		3469B243F16498784AEA047D205AD779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		354061218E79CFBB28E5A9ABF7244F11 /* SCSlidingPageLayouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSlidingPageLayouter.m; path = SCPageViewController/Layouters/SCSlidingPageLayouter.m; sourceTree = "<group>"; };
+		3922417AF5A6F2DB9E136E580DA53606 /* Pods-KU Lite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KU Lite-umbrella.h"; sourceTree = "<group>"; };
+		3926D11B77780C680D71E9B7A09C005B /* SCPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCPageViewController-Info.plist"; sourceTree = "<group>"; };
+		4A86E372D0F974CBF14F5A782DCB342F /* SCParallaxPageLayouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCParallaxPageLayouter.m; path = SCPageViewController/Layouters/SCParallaxPageLayouter.m; sourceTree = "<group>"; };
+		4D2A38C08B7818A81F57C51E2581EF5C /* SCScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCScrollView.xcconfig; sourceTree = "<group>"; };
+		4DA116AB2C40F06B366B572E590C3A22 /* SCPageLayouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCPageLayouter.h; path = SCPageViewController/Layouters/SCPageLayouter.h; sourceTree = "<group>"; };
+		4F513906126A88201EC08CCA2BD7CD00 /* Pods-KU Lite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KU Lite-dummy.m"; sourceTree = "<group>"; };
+		51DD8B3DEFE7C3A0093699BAC7604609 /* SCPageViewControllerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCPageViewControllerView.m; path = SCPageViewController/SCPageViewControllerView.m; sourceTree = "<group>"; };
+		53B3E19F7EB98B89A94274138DF72F8B /* Pods-KU Lite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KU Lite-frameworks.sh"; sourceTree = "<group>"; };
+		5538EDA39F901BAD3BBE0E4B23DBB343 /* SCSafariPageController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSafariPageController-umbrella.h"; sourceTree = "<group>"; };
+		5BCCB8C3D818153C98939087C9B3D9F3 /* SCPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5BCE48D4565C884C2FE2F35F07E2C0 /* SCScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCScrollView-umbrella.h"; sourceTree = "<group>"; };
+		60B3C16EEE58B42901803C431CF68836 /* SCParallaxPageLayouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCParallaxPageLayouter.h; path = SCPageViewController/Layouters/SCParallaxPageLayouter.h; sourceTree = "<group>"; };
+		6A644B4FB8BE6C36AD69334A728A1FB9 /* SCPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		6C0EE32DE135D53F1B4F73B1D439A21A /* SCScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCScrollView.h; path = SCScrollView/SCScrollView.h; sourceTree = "<group>"; };
+		771B5336D3EB15652A06A6F6B05838C3 /* SCSafariPageWrapperViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSafariPageWrapperViewController.h; path = SCSafariPageController/SCSafariPageWrapperViewController.h; sourceTree = "<group>"; };
+		7B3910F27D682A9D819B00DB1CA10BEF /* SCSafariPageController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCSafariPageController.xcconfig; sourceTree = "<group>"; };
+		7BA7BD95F1ABBD18D23FF2EA943DB071 /* SCPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCPageViewController.xcconfig; sourceTree = "<group>"; };
+		7BD4DD5E072D9E3EE4483F8F05FF8022 /* SCScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCScrollView.m; path = SCScrollView/SCScrollView.m; sourceTree = "<group>"; };
+		7FBA8F9DE4A9518A0621A932B839402B /* SCSafariZoomedInLayouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSafariZoomedInLayouter.m; path = SCSafariPageController/SCSafariZoomedInLayouter.m; sourceTree = "<group>"; };
+		8084399A248834CC3DE5F8843C26C98F /* SCSafariPageWrapperViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSafariPageWrapperViewController.m; path = SCSafariPageController/SCSafariPageWrapperViewController.m; sourceTree = "<group>"; };
+		86879020494232C3D19B96C6AD54E30C /* SCScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCScrollView-Info.plist"; sourceTree = "<group>"; };
+		87CC159879BDD78537929568B635E563 /* SCEasingFunctionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCEasingFunctionProtocol.h; path = SCScrollView/SCEasingFunctionProtocol.h; sourceTree = "<group>"; };
+		886DE1B72493287AA08839695ACAE59E /* SCPageLayouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCPageLayouter.m; path = SCPageViewController/Layouters/SCPageLayouter.m; sourceTree = "<group>"; };
+		8C03EA8B483D9D59D6640F446012A690 /* Pods_KU_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KU_Lite.framework; path = "Pods-KU Lite.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3F43D7C7638D23175905D08502E4D8 /* SCSafariZoomedOutLayouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSafariZoomedOutLayouter.m; path = SCSafariPageController/SCSafariZoomedOutLayouter.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A32FDDB536BC38918C332310E8DB1CB2 /* SCCardsPageLayouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCCardsPageLayouter.m; path = SCPageViewController/Layouters/SCCardsPageLayouter.m; sourceTree = "<group>"; };
+		A34765D123484DC3AEF95F68B7C99CF7 /* SCPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCPageViewController-dummy.m"; sourceTree = "<group>"; };
+		A35070EC0CD33CD23C0299C4BF391D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A542B89B9D51A9BD0924B680E9ABE263 /* SCScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCScrollView-dummy.m"; sourceTree = "<group>"; };
+		A5B8E27FA64EC0FA4E80FA83F18AD106 /* SCSafariPageController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SCSafariPageController-Info.plist"; sourceTree = "<group>"; };
+		ABD92E2175EBF8226ADA366BCB9EDA5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC7A8CB7158EE382D3FE911FE18DD61E /* easing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = easing.h; path = SCScrollView/easing.h; sourceTree = "<group>"; };
+		B08868ABCE5591E17A214BA2D5FADA1E /* SCEasingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCEasingFunction.m; path = SCScrollView/SCEasingFunction.m; sourceTree = "<group>"; };
+		B587355002BFAA719B64AF7876185A23 /* SCSafariPageController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCSafariPageController.m; path = SCSafariPageController/SCSafariPageController.m; sourceTree = "<group>"; };
+		B883FCDADADD9E9770F17824E78B6A6F /* SCSafariPageController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCSafariPageController-prefix.pch"; sourceTree = "<group>"; };
+		B95781FAB956D468014196DDCA7D65A7 /* SCSafariPageController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSafariPageController.h; path = SCSafariPageController/SCSafariPageController.h; sourceTree = "<group>"; };
+		BA9C79E830D59EA7EE9B556F3856B914 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BD36C3F567FBF48E5DCC977D20FBA1C3 /* SCWeakObjectWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCWeakObjectWrapper.h; path = SCScrollView/SCWeakObjectWrapper.h; sourceTree = "<group>"; };
+		C0F4D623E95EFE0D5A182C744A45697C /* SCSafariPageController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCSafariPageController.framework; path = SCSafariPageController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C966F4EBCDED3179022371333E61BA10 /* SCCardsPageLayouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCCardsPageLayouter.h; path = SCPageViewController/Layouters/SCCardsPageLayouter.h; sourceTree = "<group>"; };
+		CAF23460B9C3FC6C5A46DCE98E7B7C80 /* SCEasingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCEasingFunction.h; path = SCScrollView/SCEasingFunction.h; sourceTree = "<group>"; };
+		CC16600BBC4F0B1DCA2E1E6A25CA7AD0 /* SCPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCPageViewController.framework; path = SCPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B367B2E419066A560C5397AFC9B1FE /* SCSafariZoomedOutLayouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCSafariZoomedOutLayouter.h; path = SCSafariPageController/SCSafariZoomedOutLayouter.h; sourceTree = "<group>"; };
+		D553C53A74A4CF6B5703ECA38DF9D2CA /* SCPageLayouterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCPageLayouterProtocol.h; path = SCPageViewController/Layouters/SCPageLayouterProtocol.h; sourceTree = "<group>"; };
+		D9E2C61DE703C5045BE7445E4E852F09 /* Pods-KU Lite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KU Lite-Info.plist"; sourceTree = "<group>"; };
+		E613E7B4EE5855E32CA9BB26D507FC36 /* SCScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCScrollView.modulemap; sourceTree = "<group>"; };
+		EBF017B6263AE0F4BF6BDC2F4785AA47 /* SCScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED31E6C8A03BA84FEFDB9814D9D49558 /* easing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = easing.c; path = SCScrollView/easing.c; sourceTree = "<group>"; };
+		F0C049D8CA24F9F7A400346CD0C50CAC /* Pods-KU Lite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KU Lite-acknowledgements.plist"; sourceTree = "<group>"; };
+		F15BDDA61013C91DA7A8320B33A21A09 /* SCPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCPageViewController.m; path = SCPageViewController/SCPageViewController.m; sourceTree = "<group>"; };
+		F8B015E812B42630EA23B228DFA43CC5 /* SCPageViewControllerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCPageViewControllerView.h; path = SCPageViewController/SCPageViewControllerView.h; sourceTree = "<group>"; };
+		FD353B46E49E96DF078016A8D7817AAF /* SCPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCPageViewController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D233066C836C7DFEB9E051A8435E9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304F4475E1E6195D4599A0DE2296284 /* CoreGraphics.framework in Frameworks */,
+				D0DB5A622B0B36512A924F4906D05F9B /* Foundation.framework in Frameworks */,
+				981C0F0818799B8440669D0C53C64C22 /* QuartzCore.framework in Frameworks */,
+				8B8D825EFDDB9CBE7D569194D80CD1EA /* SCScrollView.framework in Frameworks */,
+				A21A6DF2C1753C8940C21C923F3C399D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B64EBFCDDDC6E4810351EA8782326CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DC3038F23A51AE793E04825C6A750D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91EF7AB02EFC1E351A47BCCF19AC413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A630103F428436CEB29638931AFDC907 /* Foundation.framework in Frameworks */,
+				C910C7E8663EA3FC17C789FB34AF923A /* QuartzCore.framework in Frameworks */,
+				2C19B8A0567399BF33D277DCAED4D59D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2CC8492D799764CD863F5798BF5586F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D4BC95A19495FB65B6ADECC3BE2C61 /* Foundation.framework in Frameworks */,
+				75AEC2FD704B5675DF68C0B425E3260E /* SCPageViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0483D852F89F5A9311C0B8817001B561 /* SCPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C966F4EBCDED3179022371333E61BA10 /* SCCardsPageLayouter.h */,
+				A32FDDB536BC38918C332310E8DB1CB2 /* SCCardsPageLayouter.m */,
+				4DA116AB2C40F06B366B572E590C3A22 /* SCPageLayouter.h */,
+				886DE1B72493287AA08839695ACAE59E /* SCPageLayouter.m */,
+				D553C53A74A4CF6B5703ECA38DF9D2CA /* SCPageLayouterProtocol.h */,
+				147460F04D2B921D67CA27ED6EE4A684 /* SCPageViewController.h */,
+				F15BDDA61013C91DA7A8320B33A21A09 /* SCPageViewController.m */,
+				F8B015E812B42630EA23B228DFA43CC5 /* SCPageViewControllerView.h */,
+				51DD8B3DEFE7C3A0093699BAC7604609 /* SCPageViewControllerView.m */,
+				60B3C16EEE58B42901803C431CF68836 /* SCParallaxPageLayouter.h */,
+				4A86E372D0F974CBF14F5A782DCB342F /* SCParallaxPageLayouter.m */,
+				2DE7D407A6A10289ED91D500C4220860 /* SCSlidingPageLayouter.h */,
+				354061218E79CFBB28E5A9ABF7244F11 /* SCSlidingPageLayouter.m */,
+				FE1177406C342F764E05BC1F2C02EAC9 /* Support Files */,
+			);
+			name = SCPageViewController;
+			path = SCPageViewController;
+			sourceTree = "<group>";
+		};
+		1F3E86CDE1D11E22FE875DD83F766E0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0483D852F89F5A9311C0B8817001B561 /* SCPageViewController */,
+				F81DC6EBE734376EC28B676DA862C0BE /* SCSafariPageController */,
+				79FF1C8E1D99C752958364A9AFC92789 /* SCScrollView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F47C738F7F2C2C799BACE8FF68BF55E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3469B243F16498784AEA047D205AD779 /* CoreGraphics.framework */,
+				A35070EC0CD33CD23C0299C4BF391D08 /* Foundation.framework */,
+				BA9C79E830D59EA7EE9B556F3856B914 /* QuartzCore.framework */,
+				ABD92E2175EBF8226ADA366BCB9EDA5A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		39F185A4468782445099611C9D9AAA3F /* Pods-KU Lite */ = {
+			isa = PBXGroup;
+			children = (
+				2FF42E8CE36C88D304D0D32A4DD280AA /* Pods-KU Lite.modulemap */,
+				10D00E511AA6F7909B23F207D1DA99AD /* Pods-KU Lite-acknowledgements.markdown */,
+				F0C049D8CA24F9F7A400346CD0C50CAC /* Pods-KU Lite-acknowledgements.plist */,
+				4F513906126A88201EC08CCA2BD7CD00 /* Pods-KU Lite-dummy.m */,
+				53B3E19F7EB98B89A94274138DF72F8B /* Pods-KU Lite-frameworks.sh */,
+				D9E2C61DE703C5045BE7445E4E852F09 /* Pods-KU Lite-Info.plist */,
+				3922417AF5A6F2DB9E136E580DA53606 /* Pods-KU Lite-umbrella.h */,
+				1E576E0E527783F073F1ED1329138C3B /* Pods-KU Lite.debug.xcconfig */,
+				143D71BC1DA50D25D839EE72F8CB5F0E /* Pods-KU Lite.release.xcconfig */,
+			);
+			name = "Pods-KU Lite";
+			path = "Target Support Files/Pods-KU Lite";
+			sourceTree = "<group>";
+		};
+		5624064F1388A354D141802C85427C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCCB8C3D818153C98939087C9B3D9F3 /* SCPageViewController.framework */,
+				EBF017B6263AE0F4BF6BDC2F4785AA47 /* SCScrollView.framework */,
+				2F47C738F7F2C2C799BACE8FF68BF55E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A07868670A08D6E6E78CF6C7A51E92E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F185A4468782445099611C9D9AAA3F /* Pods-KU Lite */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79FF1C8E1D99C752958364A9AFC92789 /* SCScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				ED31E6C8A03BA84FEFDB9814D9D49558 /* easing.c */,
+				AC7A8CB7158EE382D3FE911FE18DD61E /* easing.h */,
+				CAF23460B9C3FC6C5A46DCE98E7B7C80 /* SCEasingFunction.h */,
+				B08868ABCE5591E17A214BA2D5FADA1E /* SCEasingFunction.m */,
+				87CC159879BDD78537929568B635E563 /* SCEasingFunctionProtocol.h */,
+				6C0EE32DE135D53F1B4F73B1D439A21A /* SCScrollView.h */,
+				7BD4DD5E072D9E3EE4483F8F05FF8022 /* SCScrollView.m */,
+				BD36C3F567FBF48E5DCC977D20FBA1C3 /* SCWeakObjectWrapper.h */,
+				1C4B9B943E88469192C3D4C52623DA5E /* SCWeakObjectWrapper.m */,
+				7BF4204F2E8E6833D8EFEA5BCD704A07 /* Support Files */,
+			);
+			name = SCScrollView;
+			path = SCScrollView;
+			sourceTree = "<group>";
+		};
+		7BF4204F2E8E6833D8EFEA5BCD704A07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E613E7B4EE5855E32CA9BB26D507FC36 /* SCScrollView.modulemap */,
+				4D2A38C08B7818A81F57C51E2581EF5C /* SCScrollView.xcconfig */,
+				A542B89B9D51A9BD0924B680E9ABE263 /* SCScrollView-dummy.m */,
+				86879020494232C3D19B96C6AD54E30C /* SCScrollView-Info.plist */,
+				338707CB410A3DE294DEB268F3754656 /* SCScrollView-prefix.pch */,
+				5E5BCE48D4565C884C2FE2F35F07E2C0 /* SCScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCScrollView";
+			sourceTree = "<group>";
+		};
+		99DB3371355676F47407E1C7E153BE06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8693F14F18CF8B76F9525ADB5E95A1 /* SCSafariPageController.modulemap */,
+				7B3910F27D682A9D819B00DB1CA10BEF /* SCSafariPageController.xcconfig */,
+				0C850021EB73D548764290C21C8CA9D3 /* SCSafariPageController-dummy.m */,
+				A5B8E27FA64EC0FA4E80FA83F18AD106 /* SCSafariPageController-Info.plist */,
+				B883FCDADADD9E9770F17824E78B6A6F /* SCSafariPageController-prefix.pch */,
+				5538EDA39F901BAD3BBE0E4B23DBB343 /* SCSafariPageController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCSafariPageController";
+			sourceTree = "<group>";
+		};
+		9D054FE4887888704F14EDAEAF6E8B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C03EA8B483D9D59D6640F446012A690 /* Pods_KU_Lite.framework */,
+				CC16600BBC4F0B1DCA2E1E6A25CA7AD0 /* SCPageViewController.framework */,
+				C0F4D623E95EFE0D5A182C744A45697C /* SCSafariPageController.framework */,
+				0D8E8EA01D0FAD07007D2005E70D531A /* SCScrollView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5624064F1388A354D141802C85427C57 /* Frameworks */,
+				1F3E86CDE1D11E22FE875DD83F766E0E /* Pods */,
+				9D054FE4887888704F14EDAEAF6E8B3B /* Products */,
+				6A07868670A08D6E6E78CF6C7A51E92E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F81DC6EBE734376EC28B676DA862C0BE /* SCSafariPageController */ = {
+			isa = PBXGroup;
+			children = (
+				B95781FAB956D468014196DDCA7D65A7 /* SCSafariPageController.h */,
+				B587355002BFAA719B64AF7876185A23 /* SCSafariPageController.m */,
+				771B5336D3EB15652A06A6F6B05838C3 /* SCSafariPageWrapperViewController.h */,
+				8084399A248834CC3DE5F8843C26C98F /* SCSafariPageWrapperViewController.m */,
+				321C169CB3083B3A6F80A35B53CB6274 /* SCSafariZoomedInLayouter.h */,
+				7FBA8F9DE4A9518A0621A932B839402B /* SCSafariZoomedInLayouter.m */,
+				D3B367B2E419066A560C5397AFC9B1FE /* SCSafariZoomedOutLayouter.h */,
+				9D3F43D7C7638D23175905D08502E4D8 /* SCSafariZoomedOutLayouter.m */,
+				99DB3371355676F47407E1C7E153BE06 /* Support Files */,
+			);
+			name = SCSafariPageController;
+			path = SCSafariPageController;
+			sourceTree = "<group>";
+		};
+		FE1177406C342F764E05BC1F2C02EAC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00EE9E2746459D146181085371B3B0D6 /* SCPageViewController.modulemap */,
+				7BA7BD95F1ABBD18D23FF2EA943DB071 /* SCPageViewController.xcconfig */,
+				A34765D123484DC3AEF95F68B7C99CF7 /* SCPageViewController-dummy.m */,
+				3926D11B77780C680D71E9B7A09C005B /* SCPageViewController-Info.plist */,
+				6A644B4FB8BE6C36AD69334A728A1FB9 /* SCPageViewController-prefix.pch */,
+				FD353B46E49E96DF078016A8D7817AAF /* SCPageViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCPageViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E2BA6386757F24DE33D9FA193199366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94C1E2BF23EFC08A81C249A525C85C6 /* easing.h in Headers */,
+				369C96DF0A0FE577AFEBC283E9C85C5D /* SCEasingFunction.h in Headers */,
+				19D74D1F8531AA179FB1CB7E780FAD49 /* SCEasingFunctionProtocol.h in Headers */,
+				79855E5BDD3833F6E71FD8BD820FB2C2 /* SCScrollView-umbrella.h in Headers */,
+				B6B379AD31B1ACBA9896494F9FB7155A /* SCScrollView.h in Headers */,
+				234B14BCBE76342689FBA084094C7160 /* SCWeakObjectWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753CF1C556E431BD9F1FAB416E5D3788 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3A75F8A6E4082228D3FC139E5F4D41 /* Pods-KU Lite-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76AE4D42325F51EDDE4D381CE02CA099 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B07ADCB3294DEC013A05B39C659D63 /* SCSafariPageController-umbrella.h in Headers */,
+				FC9A1E3B20BB00A34F16958283967516 /* SCSafariPageController.h in Headers */,
+				AED18D6C10EED82333A869F043B53668 /* SCSafariPageWrapperViewController.h in Headers */,
+				B7265253C639B66B914ACC87EFE8D467 /* SCSafariZoomedInLayouter.h in Headers */,
+				245F1497B8F57CEFE0C41F70EFA672FA /* SCSafariZoomedOutLayouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE341570A71E876B892BB2EFE3A30DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20E88159D12E3CBCB2F237EE7B9B06 /* SCCardsPageLayouter.h in Headers */,
+				51931384557B27A2758072420C43B079 /* SCPageLayouter.h in Headers */,
+				52AEB1BCB97BC522B5EAB29092A32932 /* SCPageLayouterProtocol.h in Headers */,
+				71FBE9039B070EF530823DBB6ED190DE /* SCPageViewController-umbrella.h in Headers */,
+				27FC26603349F8C856EA2FDA0E18B465 /* SCPageViewController.h in Headers */,
+				41039E4BD94EE03E4FCE405AB18E3A55 /* SCPageViewControllerView.h in Headers */,
+				BB6737B81D88848B9CFD9CD7F1AB0D6E /* SCParallaxPageLayouter.h in Headers */,
+				703C0D5DCBB78D107F81F389457D5377 /* SCSlidingPageLayouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BA5E6F2D43F6F2D957CE7FABD37D391 /* Pods-KU Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6A573471B4B78CC52E3E1D63015DA5 /* Build configuration list for PBXNativeTarget "Pods-KU Lite" */;
+			buildPhases = (
+				753CF1C556E431BD9F1FAB416E5D3788 /* Headers */,
+				9B84E9F70A6F03B3AEDFABEB98955F90 /* Sources */,
+				2B64EBFCDDDC6E4810351EA8782326CF /* Frameworks */,
+				BEEF7EB92F4A49AD54E8EE54589C54AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92816F936185A00EACC0F761B3F34A1 /* PBXTargetDependency */,
+				8C2EF95A4FCCC0AAF7DDDB2FE7C993B2 /* PBXTargetDependency */,
+				39532574C24AE0E3451D1276532924F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-KU Lite";
+			productName = "Pods-KU Lite";
+			productReference = 8C03EA8B483D9D59D6640F446012A690 /* Pods_KU_Lite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D17A514F23B1227B602364C62EAF0A8 /* SCScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E68732D1F4345B6634C99BB8E9586D /* Build configuration list for PBXNativeTarget "SCScrollView" */;
+			buildPhases = (
+				6E2BA6386757F24DE33D9FA193199366 /* Headers */,
+				03C5CF990ADE071D3DFDA80A212BDFE5 /* Sources */,
+				B91EF7AB02EFC1E351A47BCCF19AC413 /* Frameworks */,
+				B701616B7EDFBC67495E16D70B55D3D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCScrollView;
+			productName = SCScrollView;
+			productReference = 0D8E8EA01D0FAD07007D2005E70D531A /* SCScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99314A05849ACCEAD6AB0A1C6548EDD5 /* SCPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8D62EA0847475C667F49C0C5C0EC2 /* Build configuration list for PBXNativeTarget "SCPageViewController" */;
+			buildPhases = (
+				CFE341570A71E876B892BB2EFE3A30DB /* Headers */,
+				E43F8F367ECA536DA962D62615D40755 /* Sources */,
+				1D233066C836C7DFEB9E051A8435E9E4 /* Frameworks */,
+				D6E8C1C75361BFF1B59EE877F58E104F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347FC5A6E446339AA62970BAEC8D8584 /* PBXTargetDependency */,
+			);
+			name = SCPageViewController;
+			productName = SCPageViewController;
+			productReference = CC16600BBC4F0B1DCA2E1E6A25CA7AD0 /* SCPageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D95C0D52197DBAF920EE72C60300DF27 /* SCSafariPageController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C32ECF3464593B01614BBE31739AEA /* Build configuration list for PBXNativeTarget "SCSafariPageController" */;
+			buildPhases = (
+				76AE4D42325F51EDDE4D381CE02CA099 /* Headers */,
+				6CD2FF535804A3B18B07AE7D22143879 /* Sources */,
+				F2CC8492D799764CD863F5798BF5586F /* Frameworks */,
+				3FF38F19449942DDF29452F9495BC84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA79BD5C739426A7218AD1BF1F93F61 /* PBXTargetDependency */,
+			);
+			name = SCSafariPageController;
+			productName = SCSafariPageController;
+			productReference = C0F4D623E95EFE0D5A182C744A45697C /* SCSafariPageController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D054FE4887888704F14EDAEAF6E8B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BA5E6F2D43F6F2D957CE7FABD37D391 /* Pods-KU Lite */,
+				99314A05849ACCEAD6AB0A1C6548EDD5 /* SCPageViewController */,
+				D95C0D52197DBAF920EE72C60300DF27 /* SCSafariPageController */,
+				5D17A514F23B1227B602364C62EAF0A8 /* SCScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF38F19449942DDF29452F9495BC84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B701616B7EDFBC67495E16D70B55D3D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEEF7EB92F4A49AD54E8EE54589C54AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E8C1C75361BFF1B59EE877F58E104F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03C5CF990ADE071D3DFDA80A212BDFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C75F89A3565B5A02278FADEE2C7806 /* easing.c in Sources */,
+				A165780BE3538D5ACB7D75DE0D0D44B0 /* SCEasingFunction.m in Sources */,
+				75EA13A7835338DE128752BA8CBC6F1F /* SCScrollView-dummy.m in Sources */,
+				8C3962BB2B1CB9E15217B84FF7862289 /* SCScrollView.m in Sources */,
+				F879516ACE08D9E7FC9628DD7BF7FECD /* SCWeakObjectWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2FF535804A3B18B07AE7D22143879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91436A45648223451ED6E7AF45A9EC1F /* SCSafariPageController-dummy.m in Sources */,
+				589A9065A15178E60519B559AC794F50 /* SCSafariPageController.m in Sources */,
+				ED4C427C57717E9E8050C1DD3180965A /* SCSafariPageWrapperViewController.m in Sources */,
+				A17C2E0C203C0667BB205BEF14BD2F4F /* SCSafariZoomedInLayouter.m in Sources */,
+				985924559339021151439780B8D3B52F /* SCSafariZoomedOutLayouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B84E9F70A6F03B3AEDFABEB98955F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163FAF73041EAEC05ECCFC7D89CAF7CA /* Pods-KU Lite-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43F8F367ECA536DA962D62615D40755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62827C055346F5B62522A06AC0CBF2B /* SCCardsPageLayouter.m in Sources */,
+				4C9055B46BB82398A367875907CFE595 /* SCPageLayouter.m in Sources */,
+				77DBAD0E6656B1A207A016F3333FF107 /* SCPageViewController-dummy.m in Sources */,
+				42D138067F367438A1297E1FD6E8674A /* SCPageViewController.m in Sources */,
+				F57369B0EDFAB0F995AEC376D1FAA8B2 /* SCPageViewControllerView.m in Sources */,
+				9D290566BC9459AD759234D4858DE993 /* SCParallaxPageLayouter.m in Sources */,
+				13CB4DD29C38C144F31F211C2B2D27FA /* SCSlidingPageLayouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		347FC5A6E446339AA62970BAEC8D8584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCScrollView;
+			target = 5D17A514F23B1227B602364C62EAF0A8 /* SCScrollView */;
+			targetProxy = 1FA0893495D76872E555BA0B4E6DD7F8 /* PBXContainerItemProxy */;
+		};
+		39532574C24AE0E3451D1276532924F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCScrollView;
+			target = 5D17A514F23B1227B602364C62EAF0A8 /* SCScrollView */;
+			targetProxy = 8283471EE68F20107F540C0A323C0380 /* PBXContainerItemProxy */;
+		};
+		8C2EF95A4FCCC0AAF7DDDB2FE7C993B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCSafariPageController;
+			target = D95C0D52197DBAF920EE72C60300DF27 /* SCSafariPageController */;
+			targetProxy = 7CA10EC742DD8C6B46EBA64E24CC69E2 /* PBXContainerItemProxy */;
+		};
+		9DA79BD5C739426A7218AD1BF1F93F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCPageViewController;
+			target = 99314A05849ACCEAD6AB0A1C6548EDD5 /* SCPageViewController */;
+			targetProxy = 18010AA61BCBAB2171E90FC904169B7D /* PBXContainerItemProxy */;
+		};
+		F92816F936185A00EACC0F761B3F34A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCPageViewController;
+			target = 99314A05849ACCEAD6AB0A1C6548EDD5 /* SCPageViewController */;
+			targetProxy = D0CC9B63EE089861C8C346B999D1B612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EC442D2D11FC22560173B388FE1C79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2A38C08B7818A81F57C51E2581EF5C /* SCScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCScrollView/SCScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCScrollView/SCScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCScrollView/SCScrollView.modulemap";
+				PRODUCT_MODULE_NAME = SCScrollView;
+				PRODUCT_NAME = SCScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		671C2CAE8ADC8928B4C621FDF76970DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2A38C08B7818A81F57C51E2581EF5C /* SCScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCScrollView/SCScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCScrollView/SCScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCScrollView/SCScrollView.modulemap";
+				PRODUCT_MODULE_NAME = SCScrollView;
+				PRODUCT_NAME = SCScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C49239B7C06C5BDB9D12BBDC4EF6AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3910F27D682A9D819B00DB1CA10BEF /* SCSafariPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCSafariPageController/SCSafariPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCSafariPageController/SCSafariPageController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCSafariPageController/SCSafariPageController.modulemap";
+				PRODUCT_MODULE_NAME = SCSafariPageController;
+				PRODUCT_NAME = SCSafariPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BC16083F85B8C807AB4C7504D83F96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E576E0E527783F073F1ED1329138C3B /* Pods-KU Lite.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KU Lite/Pods-KU Lite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KU Lite/Pods-KU Lite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E86FF42472CF695CCB89D5C3995EDC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3910F27D682A9D819B00DB1CA10BEF /* SCSafariPageController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCSafariPageController/SCSafariPageController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCSafariPageController/SCSafariPageController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCSafariPageController/SCSafariPageController.modulemap";
+				PRODUCT_MODULE_NAME = SCSafariPageController;
+				PRODUCT_NAME = SCSafariPageController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5290CE98EFE64605DDD4DB94528DDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143D71BC1DA50D25D839EE72F8CB5F0E /* Pods-KU Lite.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KU Lite/Pods-KU Lite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KU Lite/Pods-KU Lite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA176AA1E78AAB7CFCB96707241A9A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA7BD95F1ABBD18D23FF2EA943DB071 /* SCPageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCPageViewController/SCPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCPageViewController/SCPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCPageViewController/SCPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = SCPageViewController;
+				PRODUCT_NAME = SCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF01ED936FF9ABDDCB55DC1528DE7EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA7BD95F1ABBD18D23FF2EA943DB071 /* SCPageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCPageViewController/SCPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCPageViewController/SCPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCPageViewController/SCPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = SCPageViewController;
+				PRODUCT_NAME = SCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C32ECF3464593B01614BBE31739AEA /* Build configuration list for PBXNativeTarget "SCSafariPageController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86FF42472CF695CCB89D5C3995EDC2F /* Debug */,
+				6C49239B7C06C5BDB9D12BBDC4EF6AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6A573471B4B78CC52E3E1D63015DA5 /* Build configuration list for PBXNativeTarget "Pods-KU Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC16083F85B8C807AB4C7504D83F96E /* Debug */,
+				F5290CE98EFE64605DDD4DB94528DDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E68732D1F4345B6634C99BB8E9586D /* Build configuration list for PBXNativeTarget "SCScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671C2CAE8ADC8928B4C621FDF76970DF /* Debug */,
+				0EC442D2D11FC22560173B388FE1C79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F8D62EA0847475C667F49C0C5C0EC2 /* Build configuration list for PBXNativeTarget "SCPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF01ED936FF9ABDDCB55DC1528DE7EE2 /* Debug */,
+				FA176AA1E78AAB7CFCB96707241A9A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

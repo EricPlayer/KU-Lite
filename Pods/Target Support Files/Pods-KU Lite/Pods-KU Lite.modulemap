@@ -1,0 +1,6 @@
+framework module Pods_KU_Lite {
+  umbrella header "Pods-KU Lite-umbrella.h"
+
+  export *
+  module * { export * }
+}

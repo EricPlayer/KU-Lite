@@ -1,0 +1,6 @@
+framework module SCPageViewController {
+  umbrella header "SCPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
